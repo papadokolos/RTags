@@ -13,7 +13,7 @@ def InitializeMainLogger(main_logger):
 
         # Create / override console handler
         console_handler = logging.StreamHandler()
-        console_handler.setLevel(logging.DEBUG)
+        console_handler.setLevel(logging.WARNING)
 
         # Create formatter and add it to the handler
         formatter = logging.Formatter('[RTags / %(levelname)s] %(message)s')

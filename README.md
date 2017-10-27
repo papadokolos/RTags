@@ -3,6 +3,20 @@ This plugin aims to give powerful C++ navigation and modification abilities, by 
 
 In short, RTags is a client/server application which parses C/C++ code and allows __semantic__ auto-completion, navigation, and refactoring. It is the best open-source tool I've found for C/C++ parsing, and it greatly outperforms CTags/GTags etc...
 
+----
+
+- [RTags Plugin for Sublime Text 3](#rtags-plugin-for-sublime-text-3)
+  - [Currently Available Features](#currently-available-features)
+- [Installation Instructions](#installation-instructions)
+    - [Installing the Plugin](#installing-the-plugin)
+    - [Installing RTags](#installing-rtags)
+    - [Setting up RTags to work for the first time](#setting-up-rtags-to-work-for-the-first-time)
+- [Using the Plugin](#using-the-plugin)
+- [Contributions](#contributions)
+- [Worth Noting](#worth-noting)
+
+----
+
 ### Currently Available Features
 - GoTo Definition/Decleration
 - Find All References

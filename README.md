@@ -48,7 +48,7 @@ This should be fairly quick and easy. But in case you face any difficulties, fee
 
 #### Setting up RTags to work for the first time
 Now that you have RTags installed, it is time to use it to parse your code. A full guide can be found in [RTags' README](https://github.com/Andersbakken/rtags#setup), but basically it sums up to three steps:
-1. Execute RTags server by opening a terminal and simply executing the command `rdm`
+1. Execute RTags server by opening a terminal and simply executing the command `rdm`.
 2. Generate a [compilation databse](https://clang.llvm.org/docs/JSONCompilationDatabase.html) for your code. This file informs RTags how you build your code.
 
    - If you build using _CMake_:
@@ -72,7 +72,7 @@ Now that you have RTags installed, it is time to use it to parse your code. A fu
 3. Direct RTags server to your generated compilation database by executing `rc -J` in the directory of the generated database.
 
 ## Using the Plugin
-First, make that the RTags server is up and running for this plugin to communicate with it. This can be done by opening a terminal and simply executing the command `rdm`. Make sure to keep this terminal open!
+First, make sure that the RTags server is up and running for this plugin to communicate with it. This can be done by opening a terminal and simply executing the command `rdm`. Make sure to keep this terminal open!
 
 Now you are free to open the _Command Panel_ (via <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>) and type `RTags:`. This will present you with all the available commands.
 

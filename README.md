@@ -76,7 +76,7 @@ First, make that the RTags server is up and running for this plugin to communica
 
 Now you are free to open the _Command Panel_ (via <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>) and type `RTags:`. This will present you with all the available commands.
 
-In case nothing happenes when you execute a command, try looking at the status bar for an error message of the plugin. For more verbose information, refer to Sublime Text's console (via <kbd>Ctrl</bkd>+<kbd>`</kbd>). If you're still unable to solve your problem, please open an issue and I'll be glad to assist you.
+In case nothing happenes when you execute a command, try looking at the status bar for an error message of the plugin. For more verbose information, refer to Sublime Text's console (via <kbd>Ctrl</kbd>+<kbd>`</kbd>). If you're still unable to solve your problem, please open an issue and I'll be glad to assist you.
 
 ## Contributions
 You are very welcome to ask, suggest and contribute in any way you'd like. I'm using this plugin on a daily basis, so I'll be glad for any suggested improvements :wink:

@@ -1,0 +1,4 @@
+[
+    { "caption": "RTags: Goto Definition/Declaration", "command": "follow_location" },
+    { "caption": "RTags: Find All References", "command": "find_references" },
+]

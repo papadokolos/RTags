@@ -1,0 +1,2499 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"find",
+				"find_references\tRTags"
+			],
+			[
+				"ope",
+				"operand\tkey"
+			],
+			[
+				"c",
+				"context\tkey"
+			],
+			[
+				"opera",
+				"operator+\tint operator+(SafeArray<SphinxBug::Check> &, int)"
+			],
+			[
+				"regions",
+				"regions_to_highlight"
+			],
+			[
+				"highl",
+				"highlight_line"
+			],
+			[
+				"set",
+				"settings"
+			],
+			[
+				"results",
+				"results_view\tstatement"
+			],
+			[
+				"line",
+				"line_number\tstatement"
+			],
+			[
+				"regin",
+				"regions_to_highlight\tstatement"
+			],
+			[
+				"__",
+				"__class__\tclass"
+			],
+			[
+				"symbol",
+				"symbol_length"
+			],
+			[
+				"symb",
+				"symbol_occurences\tparam"
+			],
+			[
+				"sym",
+				"symbol_regions\tstatement"
+			],
+			[
+				"p",
+				"public"
+			],
+			[
+				"out",
+				"received_output\tstatement"
+			],
+			[
+				"f",
+				"file.h\tfolder"
+			],
+			[
+				"s",
+				"SafeArray.hpp\t"
+			],
+			[
+				"S",
+				"SafeArray.hpp\t"
+			],
+			[
+				"prev",
+				"previous_row\tstatement"
+			],
+			[
+				"spl",
+				"splitlines"
+			],
+			[
+				"targe",
+				"target_filename\tstatement"
+			],
+			[
+				"splt",
+				"splitlines\tfunction"
+			],
+			[
+				"sublime",
+				"sublime_plugin\tmodule"
+			],
+			[
+				"edit",
+				"edit_token\tstatement"
+			],
+			[
+				"run",
+				"run_command\tfunction"
+			],
+			[
+				"in",
+				"insert\tfunction"
+			],
+			[
+				"ac",
+				"active_window\tfunction"
+			],
+			[
+				"class",
+				"classify"
+			],
+			[
+				"dest",
+				"dest_file_name\tstatement"
+			],
+			[
+				"point",
+				"point_in_view\tparam"
+			],
+			[
+				"wod",
+				"word_start\tparam"
+			],
+			[
+				"rc",
+				"rc_call\tmodule"
+			],
+			[
+				"err",
+				"error_message"
+			],
+			[
+				"tim",
+				"set_timeout_async\tfunction"
+			],
+			[
+				"open_file",
+				"open_file\tfunction"
+			],
+			[
+				"acti",
+				"active_view\tfunction"
+			],
+			[
+				"focus",
+				"focus_view\tfunction"
+			],
+			[
+				"open_file_",
+				"opened_file_path"
+			],
+			[
+				"de",
+				"debug"
+			],
+			[
+				"open",
+				"open_view"
+			],
+			[
+				"subli",
+				"sublime\tmodule"
+			],
+			[
+				"func",
+				"functools\tmodule"
+			],
+			[
+				"v",
+				"views"
+			],
+			[
+				"Error",
+				"FileOutsideProjectPathError"
+			],
+			[
+				"for",
+				"format\tfunction"
+			],
+			[
+				"absolute",
+				"absolute_path\tparam"
+			],
+			[
+				"dest_",
+				"dest_file_name\tparam"
+			],
+			[
+				"SafeArr",
+				"SafeArray\tSafeArray<class T>(int size)"
+			],
+			[
+				"ret",
+				"returncode"
+			],
+			[
+				"target",
+				"target_filename"
+			],
+			[
+				"rec",
+				"received_output\tstatement"
+			],
+			[
+				"tarf",
+				"target_file_delimiter\tstatement"
+			],
+			[
+				"tar",
+				"target_location\tstatement"
+			],
+			[
+				"clas",
+				"classification"
+			],
+			[
+				"log_rc",
+				"_log_rc_success"
+			],
+			[
+				"error",
+				"error_msg\tstatement"
+			],
+			[
+				"erro",
+				"error_msg_format\tstatement"
+			],
+			[
+				"sub",
+				"subprocess\tmodule"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"pr",
+				"_parse_output\tfunction"
+			],
+			[
+				"par",
+				"parsing_func\tparam"
+			],
+			[
+				"check",
+				"check_output\tfunction"
+			],
+			[
+				"rc_",
+				"rc_params\tstatement"
+			],
+			[
+				"execute",
+				"execute_rc\tfunction"
+			],
+			[
+				"_Is",
+				"_IsSingleCursor"
+			],
+			[
+				"row",
+				"rowcol"
+			],
+			[
+				"view",
+				"View\tclass"
+			],
+			[
+				"wa",
+				"warning\tfunction"
+			],
+			[
+				"RT",
+				"RTags"
+			],
+			[
+				"ma",
+				"main_logger"
+			],
+			[
+				"rtags",
+				"rtags_modules\tmodule"
+			],
+			[
+				"rt",
+				"rt_logger\tmodule"
+			],
+			[
+				"lo",
+				"LookupError\tclass"
+			],
+			[
+				"h",
+				"handlers\tstatement"
+			],
+			[
+				"remove",
+				"removeHandler\tfunction"
+			],
+			[
+				"Handler",
+				"hasHandlers\tfunction"
+			],
+			[
+				"add",
+				"addHandler\tfunction"
+			],
+			[
+				"i",
+				"inc\t#include <…>"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/stav/Projects/sphinxBug-env/SphinxBug/Code/Source.cpp",
+			"settings":
+			{
+				"buffer_size": 1022,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/stav/Projects/sphinxBug-env/SphinxBug/Code/Check.cpp",
+			"settings":
+			{
+				"buffer_size": 447,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/stav/Projects/sphinxBug-env/SphinxBug/Code/SafeArray.hpp",
+			"settings":
+			{
+				"buffer_size": 4412,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/stav/Projects/sphinxBug-env/SphinxBug/Code/Check.h",
+			"settings":
+			{
+				"buffer_size": 1046,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "rtags.py",
+			"settings":
+			{
+				"buffer_size": 215,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "rtags_commands/follow_location.py",
+			"settings":
+			{
+				"buffer_size": 2377,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "rtags_commands/find_references.py",
+			"settings":
+			{
+				"buffer_size": 8522,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Default.sublime-keymap",
+			"settings":
+			{
+				"buffer_size": 378,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "Default"
+			}
+		},
+		{
+			"contents": "rc options...\nOptions:\n  --verbose|-v                           Be more verbose.\n  --version                              Print current version.\n  --verify-version [arg]                 Verify that the correct protocol version is used.\n  --silent|-Q                            Be silent.\n  --help|-h                              Display this help.\n  --config [arg]                         Use this file (instead of ~/.rcrc).\n  --no-rc                                Don't load any rc files.\n\nRdm:\n  --quit-rdm|-q                          Tell server to shut down with optional exit code as argument.\n  --connect-timeout [arg]                Timeout for connecting to rdm in ms (default 1000).\n\nProject management:\n  --clear|-C                             Clear projects.\n  --project|-w [optional]                With arg, select project matching that if unique, otherwise list all projects.\n  --delete-project|-W [arg]              Delete all projects matching regex.\n  --job-count|-j [optional]              Set or query current job count. (Prefix with l to set low-priority-job-count).\n\nIndexing commands:\n  --compile|-c [optional]                Pass compilation arguments to rdm.\n  --guess-flags                          Guess compile flags (used with -c).\n  --load-compile-commands|-J [optional]  Load compile_commands.json from directory\n  --suspend|-X [optional]                Dump suspended files (don't track changes in these files) with no arg. Otherwise toggle suspension for arg.\n\nQuery commands:\n  --follow-location|-f [arg]             Follow this location.\n  --references-name|-R [arg]             Find references matching arg.\n  --references|-r [arg]                  Find references matching this location.\n  --list-symbols|-S [optional]           List symbol names matching arg.\n  --find-symbols|-F [optional]           Find symbols matching arg.\n  --symbol-info|-U [arg]                 Get cursor info for this location.\n  --status|-s [optional]                 Dump status of rdm. Arg can be symbols or symbolNames.\n  --diagnose [arg]                       Resend diagnostics for file.\n  --diagnose-all                         Resend diagnostics for all files.\n  --is-indexed|-T [arg]                  Check if rtags knows about, and is ready to return information about, this source file.\n  --is-indexing                          Check if rtags is currently indexing files.\n  --has-filemanager [optional]           Check if rtags has info about files in this directory.\n  --preprocess|-E [arg]                  Preprocess file.\n  --reindex|-V [optional]                Reindex all files or all files matching pattern.\n  --check-reindex|-x [optional]          Check if reindexing is necessary for all files matching pattern.\n  --path|-P [optional]                   Print files matching pattern.\n  --current-project                      Print path for current project.\n  --dump-file|-d [arg]                   Dump source file.\n  --check-includes [arg]                 Check includes for source file.\n  --dump-file-maps [arg]                 Dump file maps for file.\n  --generate-test [arg]                  Generate a test for a given source file.\n  --rdm-log|-g                           Receive logs from rdm.\n  --fixits [arg]                         Get fixits for file.\n  --remove|-D [arg]                      Remove file from project.\n  --find-project-root [arg]              Use to check behavior of find-project-root.\n  --find-project-build-root [arg]        Use to check behavior of find-project-root for builds.\n  --include-file [arg]                   Use to generate include statement for symbol.\n  --sources [optional]                   Dump sources for source file.\n  --dependencies [arg]                   Dump dependencies for source file [(includes, included-by, depends-on, depended-on, tree-depends-on, raw)].\n  --all-dependencies                     Dump dependencies for all source files [(includes, included-by, depends-on, depended-on, tree-depends-on, raw)].\n  --reload-file-manager|-B               Reload file manager.\n  --man                                  Output XML for xmltoman to generate man page for rc :-)\n  --code-complete-at|-l [arg]            Code complete at location: arg is file:line:col.\n  --send-diagnostics [arg]               Only for debugging. Send data to all -G connections.\n  --dump-completions                     Dump cached completions.\n  --dump-compile-commands                Dump compilation database for project.\n  --set-buffers [optional]               Set active buffers (list of filenames for active buffers in editor).\n  --list-buffers                         List active buffers.\n  --add-buffers [arg]                    Add additional buffers.\n  --remove-buffers [arg]                 Remove buffers.\n  --list-cursor-kinds                    List spelling for known cursor kinds.\n  --class-hierarchy [arg]                Dump class hierarcy for struct/class at location.\n  --debug-locations [optional]           Manipulate debug locations.\n  --validate                             Validate database files for current project.\n  --tokens [arg]                         Dump tokens for file. --tokens file.cpp:123-321 for range.\n\nCommand flags:\n  --strip-paren|-p                       Strip parens in various contexts.\n  --max|-M [arg]                         Max lines of output for queries.\n  --reverse-sort|-O                      Sort output reversed.\n  --rename                               Used for --references to indicate that we're using the results to rename symbols.\n  --unsaved-file [arg]                   Pass unsaved file on command line. E.g. --unsaved-file=main.cpp:1200 then write 1200 bytes on stdin.\n  --log-file|-L [arg]                    Log to this file.\n  --no-context|-N                        Don't print context for locations.\n  --path-filter|-i [arg]                 Filter out results not matching with arg.\n  --dependency-filter [arg]              Filter out results unless argument depends on them.\n  --range-filter [arg]                   Filter out results not in the specified range.\n  --filter-system-headers|-H             Don't exempt system headers from path filters.\n  --all-references|-e                    Include definitions/declarations/constructors/destructors for references. Used for rename symbol.\n  --target-usrs                          Print all matching usr targets for -f. Used for debugging.\n  --all-targets                          Print multiple targets for -f. Sorted by best match.\n  --elisp|-Y                             Output elisp: (list \"one\" \"two\" ...).\n  --json                                 Output json.\n  --diagnostics|-m                       Receive async formatted diagnostics from rdm.\n  --match-regexp|-Z                      Treat various text patterns as regexps (-P, -i, -V, -F).\n  --match-icase|-I                       Match case insensitively\n  --absolute-path|-K                     Print files with absolute path.\n  --socket-file|-n [arg]                 Use this socket file (default ~/.rdm).\n  --socket-address [arg]                 Use this host:port combination (instead of --socket-file).\n  --timeout|-y [arg]                     Max time in ms to wait for job to finish (default no timeout).\n  --find-virtuals|-k                     Use in combinations with -R or -r to show other implementations of this function.\n  --find-file-prefer-exact|-A            Use to make --find-file prefer exact matches over partial matches.\n  --symbol-info-include-parents          Use to make --symbol-info include parent symbols.\n  --symbol-info-include-targets          Use to make --symbol-info include target symbols.\n  --symbol-info-include-references       Use to make --symbol-info include reference symbols.\n  --symbol-info-include-base-classes     Use to make --symbol-info include baseclasses' symbols.\n  --cursor-kind                          Include cursor kind in --find-symbols output.\n  --display-name                         Include display name in --find-symbols output.\n  --current-file [arg]                   Pass along which file is being edited to give rdm a better chance at picking the right project.\n  --declaration-only|-G                  Filter out definitions (unless inline).\n  --definition-only                      Filter out declarations (unless inline).\n  --kind-filter [arg]                    Only return results matching this kind.\n  --containing-function|-o               Include name of containing function in output.\n  --containing-function-location         Include location of containing function in output.\n  --build-index [arg]                    For sources with multiple builds, use the arg'th.\n  --compilation-flags-only               For --source, only print compilation flags.\n  --compilation-flags-split-line         For --source, print one compilation flag per line.\n  --compilation-flags-pwd                For --source, print pwd for compile command on the first line.\n  --dump-include-headers                 For --dump-file, also dump dependencies.\n  --silent-query                         Don't log this request in rdm.\n  --synchronous-completions              Wait for completion results and print them to stdout.\n  --synchronous-diagnostics              Wait for diagnostics and print them to stdout.\n  --xml                                  Output XML\n  --no-sort-references-by-input          Don't sort references by input position.\n  --project-root [arg]                   Override project root for compile commands.\n  --rtags-config [arg]                   Print out .rtags-config for argument.\n  --wildcard-symbol-names|-a             Expand * like wildcards in --list-symbols and --find-symbols.\n  --no-color|-z                          Don't colorize context.\n  --wait                                 Wait for reindexing to finish.\n  --code-complete-include-macros         Include macros in code completion results.\n  --code-complete-includes               Give includes in completion results.\n  --code-complete-no-wait                Don't wait for synchronous completion if the translation unit has to be created.\n  --code-complete-prefix [arg]           Filter out code completion results that don't start with this prefix.\n  --code-completion-enabled|-b           Inform rdm that we're code-completing. Use with --diagnose\n  --no-spell-checking                    Don't produce spell check info in diagnostics.\n  --tokens-include-symbols               Include symbols for tokens.\n  --no-realpath                          Don't resolve paths using realpath(3).\n",
+			"settings":
+			{
+				"buffer_size": 10587,
+				"line_ending": "Unix",
+				"name": "rc options..."
+			}
+		}
+	],
+	"build_system": "Packages/C++/C++ Single File.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "packa",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"RTags:",
+				"RTags: Goto Definition/Declaration"
+			],
+			[
+				"packagedev:",
+				"PackageDev: New Main Menu File…"
+			],
+			[
+				"packagedev:comm",
+				"PackageDev: New Commands File"
+			],
+			[
+				"toggle",
+				"Automatic Package Reloader: Toggle Reload on Save"
+			],
+			[
+				"goto",
+				"RTags: Goto Definition/Declaration"
+			],
+			[
+				"RTags",
+				"RTags: Execute Example"
+			],
+			[
+				"refre",
+				"Project: Refresh Folders"
+			],
+			[
+				"open",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"sub",
+				"Sublundo: Visualize"
+			],
+			[
+				"toggl",
+				"Automatic Package Reloader: Toggle Reload on Save"
+			],
+			[
+				"copy",
+				"ANF: Copy Current File"
+			],
+			[
+				"togg",
+				"Automatic Package Reloader: Toggle Reload on Save"
+			],
+			[
+				"delete",
+				"ANF: Delete Current File"
+			],
+			[
+				"textmate",
+				"Set Syntax: TextMate Preferences (PList / XML)"
+			],
+			[
+				"openre",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"newsy",
+				"PackageDev: New Syntax Definition"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"open re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"new",
+				"PackageDev: New Build System"
+			],
+			[
+				"listpa",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"package controinsta",
+				"Package Control: Install Package"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"lsit pack",
+				"Package Control: List Packages"
+			],
+			[
+				"upg",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable li",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"package",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"deletecu",
+				"ANF: Delete Current File"
+			],
+			[
+				"",
+				"Automatic Package Reloader: Toggle Reload on Save"
+			],
+			[
+				"extract",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"package control:",
+				"Package Control: Install Package"
+			],
+			[
+				"list packa",
+				"Package Control: List Packages"
+			],
+			[
+				"auto",
+				"Automatic Package Reloader: Toggle Reload on Save"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"reloadtogg",
+				"Automatic Package Reloader: Toggle Reload on Save"
+			],
+			[
+				"reload",
+				"Automatic Package Reloader: Reload Current Project"
+			],
+			[
+				"docs",
+				"Anaconda: Display object docs"
+			],
+			[
+				"autorelo",
+				"Automatic Package Reloader: Reload Current Project"
+			],
+			[
+				"automat",
+				"Automatic Package Reloader: Reload Current Project"
+			],
+			[
+				"PC:",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"rename",
+				"ANF: Rename File"
+			],
+			[
+				"packageres",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"satis",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"doc",
+				"Anaconda: Display object docs"
+			],
+			[
+				"anaconda:",
+				"Anaconda: Display object docs"
+			],
+			[
+				"bh:",
+				"BracketHighlighter: Swap Brackets"
+			],
+			[
+				"packcon:",
+				"Package Control: List Packages"
+			],
+			[
+				"AutoPR:",
+				"Automatic Package Reloader: Toggle Reload on Save"
+			],
+			[
+				"packageinstall",
+				"Package Control: Install Package"
+			],
+			[
+				"ref",
+				"Project: Refresh Folders"
+			],
+			[
+				"easy",
+				"EasyClangComplete: Open completion triggers location"
+			],
+			[
+				"rtags",
+				"RTags: Execute Example"
+			],
+			[
+				"packagepack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"packagecontrol:",
+				"Package Control: Install Package"
+			],
+			[
+				"mult:fe",
+				"MultiEditUtils: Selection as Fields"
+			],
+			[
+				"mult",
+				"MultiEditUtils: Cycle through regions"
+			],
+			[
+				"split",
+				"MultiEditUtils: Split selection"
+			],
+			[
+				"content",
+				"BracketHighlighter: Select Bracket Content with Brackets"
+			],
+			[
+				"syn c",
+				"Set Syntax: C++"
+			],
+			[
+				"bh:sele",
+				"BracketHighlighter: Select Bracket Content"
+			],
+			[
+				"brah:",
+				"BracketHighlighter: Select Bracket Content"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"cmake",
+				"Set Syntax: CMake"
+			],
+			[
+				"syntax cma",
+				"Set Syntax: CMakeCache"
+			],
+			[
+				"syntaxpl",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"showe",
+				"Anaconda: Show error list"
+			],
+			[
+				"listpack",
+				"Package Control: List Packages"
+			],
+			[
+				"packagecontrolin",
+				"Package Control: Install Package"
+			],
+			[
+				"packagecontrol",
+				"Package Control: List Packages"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"packagedisa",
+				"Package Control: Disable Package"
+			],
+			[
+				"packageena",
+				"Package Control: Enable Package"
+			],
+			[
+				"anaconda ",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"packagecont",
+				"Package Control: Install Package"
+			],
+			[
+				"packagecontse",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"packagecontr",
+				"Package Control: Disable Package"
+			],
+			[
+				"rta",
+				"RTags: Execute Example"
+			],
+			[
+				"Anaconda:",
+				"Anaconda: Display object docs"
+			],
+			[
+				"eas",
+				"EasyClangComplete: Open completion triggers location"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"packainsta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 605.0
+	},
+	"console":
+	{
+		"height": 241.0,
+		"history":
+		[
+			"window.active_view().run_command(\"publish_results_to_panel\", {\"results_panel_name\": \"RTags: References\", \"find_results\": \"yay hooray\"})",
+			"window.active_view().run_command(\"publish_results_\", {\"results_panel_name\": \"RTags: References\", \"find_results\": \"yay hooray\"})",
+			"window.active_view().run_command(\"publish_results_to_panel\", {\"results_panel_name\": \"RTags: References\", \"find_results\": \"yay hooray\"})",
+			"window.active_view().run_command(\"publish_results_to_panel\", {\"results_panel_name\": \"RTags: References\", \"find_results\": \"yay hooray\", \"symbol_occurences\": []})",
+			"a",
+			"a = _",
+			"window.active_view().classify(window.active_view().sel()[0].a) & sublime.CLASS_PUNCTUATION_END",
+			"window.active_view().classify(window.active_view().sel()[0].a) & sublime.CLASS_PUNCTUATION_START",
+			"window.active_view().classify(window.active_view().sel()[0].a) & sublime.CLASS_PUNCTUATION_END",
+			"window.active_view().classify(window.active_view().sel()[0].a) & sublime.CLASS_PUNCTUATION_START",
+			"window.active_view().classify(window.active_view().sel()[0].a) & sublime.CLASS_PUNCTUATION_END",
+			"window.active_view().classify(window.active_view().sel()[0].a) & sublime.CLASS_WORD_END",
+			"window.active_view().classify(window.active_view().sel()[0].a) & CLASS_WORD_END",
+			"window.active_view().classify(window.active_view().sel()[0].a)",
+			"window.active_view().classify(window.active_view().sel()[0])",
+			"window.active_view().__dir__()",
+			"window.active_view().__dir__",
+			"sublime.active_window().folders()",
+			"sublime.active_window().active_view().settings().get(\"result_base_dir\")",
+			"sublime.active_window().active_view().settings().get(\"result_line_regex\")",
+			"sublime.active_window().active_view().settings().get(\"result_base_dir\")",
+			"sublime.active_window().active_view().settings().get(\"result_line_regex\")",
+			"sublime.active_window().active_view().settings().get(\"result_file_regex\")",
+			"sublime.active_window().active_view().settings()",
+			"sublime.active_window().active_view()",
+			"sublime.active_window().active_view().run_command(\"set_file_type\", {\"syntax\": \"Packages/Python/Python.sublime-syntax\"})",
+			"sublime.active_window().active_view().run_command(\"assign_syntax\", {\"syntax\": \"Packages/Python/Python.sublime-syntax\"})",
+			"sublime.active_window().active_view().run_command(\"assign_syntax\", {\"syntax\": \"Packages/HTML/HTML.sublime-syntax\"})",
+			"sublime.active_window().active_view().run_command(\"set_file_type\", {\"syntax\": \"Packages/HTML/HTML.sublime-syntax\"})",
+			"sublime.active_window().active_view().run_command(\"assign_syntax\", {\"syntax\": \"Packages/HTML/HTML.sublime-syntax\"})",
+			"sublime.active_window().active_view().run_command(\"assign_syntax\", {\"syntax\": \"Packages/Python/Python.sublime-syntax\"})",
+			"sublime.log_commands(False)",
+			"sublime.active_window().active_view().run_command(\"set_file_type\", {\"syntax\": \"Packages/Python/Python.sublime-syntax\"})",
+			"sublime.active_window().active_view().run_command(\"set_file_type\", {\"syntax\": \"Packages/Default/Find Results.hidden-tmLanguage\"})",
+			"sublime.active_window().active_view().run_command(\"set_file_type\", {\"syntax\": \"Packages/Default/Find Results.sublime-syntax\"})",
+			"sublime.active_window().active_view().run_command(\"set_file_type\", {\"syntax\": \"Packages/Python/Python.sublime-syntax\"})",
+			"sublime.active_window().active_view().run_command(\"set_file_type\", {\"syntax\": \"Packages/HTML/HTML.sublime-syntax\"})",
+			"sublime.log_commands(True)",
+			"sublime.active_window().extract_variables()",
+			"set.get(\"compile_commands\", default=\"nothing\")",
+			"set = sublime.active_window().active_view().settings()",
+			"sublime.load_settings(\"EasyClangComplete.sublime-settings\").get(\"errors_style\", default=\"nothing\")",
+			"sublime.load_settings(\"EasyClangComplete.sublime-settings\").get(\"verbose\", default=\"nothing\")",
+			"sublime.load_settings(\"EasyClangComplete.sublime-settings\").get(\"common_flags\", default=\"nothing\")",
+			"set.__dir__()",
+			"set.__dir__",
+			"print(set)",
+			"set = _",
+			"sublime.load_settings(\"/home/stav/.config/sublime-text-3/Packages/User/EasyClangComplete.sublime-settins\")",
+			"sublime.load_settings(\"/home/stav/.config/sublime-text-3/Packages/User/EasyClangComplete.sublime-settings\").get(\"common_flags\", default=\"nothing\")",
+			"sublime.load_settings(\"/home/stav/.config/sublime-text-3/Packages/User/EasyClangComplete.sublime-settings\").get(\"verbose\", default=\"nothing\")",
+			"sublime.load_settings(\"/home/stav/.config/sublime-text-3/Packages/User/EasyClangComplete.sublime-settings\").get(\"verbose\")",
+			"sublime.load_settings(\"/home/stav/.config/sublime-text-3/Packages/User/EasyClangComplete.sublime-settings\").get()",
+			"set.get(\"anaconda_aggressive\", default=\"nothing\")",
+			"set.get(\"anaconda_python_interpreter\", default=\"nothing\")",
+			"set.get(\"easy_clang_complete_verbose\", default=\"nothing\")",
+			"set.get(\"easyclangcomplete_verbose\", default=\"nothing\")",
+			"set.get(\"ecc_verbose\", default=\"nothing\")",
+			"set.get(\"ecc_veerbose\", default=\"nothing\")",
+			"set.get(\"ecc_face\", default=\"nothing\")",
+			"set.get(\"font_face\", default=\"nothing\")",
+			"set.get(\"easy_clang_complete_verbose\", default=\"nothing\")",
+			"set.get(\"ecc_verbose\", default=\"nothing\")",
+			"set.get(\"check\", default=\"nothing\")",
+			"set.get(\"check\")",
+			"set",
+			"set = _",
+			"sublime.active_window().active_view().settings()",
+			"sublime.active_window().run_command(\"new_file\")",
+			"sublime.active_window().run_command(\"open_file\", {\"fname\": \"/usr/include/c++/5/string\"})",
+			"sublime.active_window().run_command(\"open_file\", (\"/usr/include/c++/5/string\"))",
+			"sublime.active_window().run_command(\"open_file\", {\"/usr/include/c++/5/string\"})",
+			"sublime.active_window().run_command(\"open_file\", {\"fname\": \"/usr/include/c++/5/string\"})",
+			"sublime.active_window().run_command(\"open_file\", {\"fn\": \"/usr/include/c++/5/string\"})",
+			"sublime.CLASS_EMPTY_LINE",
+			"sublime.active_window().active_view().classify(sublime.active_window().active_view().sel()[0].a)",
+			"sublime.active_window().active_view().sel()[0].a",
+			"sublime.active_window().active_view().classify(sublime.active_window().active_view().sel()[0].a)",
+			"sublime.active_window().active_view().classify(sublime.active_window().active_view().sel()[0])",
+			"sublime.active_window().active_view().classify(sublime.active_window().active_view().sel()[0].a)",
+			"classify(sublime.active_window().active_view().classify(sublime.active_window().active_view().sel()[0].a))",
+			"sublime.CLASS_LINE_END",
+			"CLASS_LINE_END",
+			"sublime.CLASS_EMPTY_LINE",
+			"sublime.CLASS_SUB_WORD_END",
+			"sublime.active_window().active_view().classify(sublime.active_window().active_view().sel()[0].a)",
+			"sublime.active_window().active_view().classify(sublime.active_window().active_view().sel()[0].a) & (sublime.CLASS_WORD_END | sublime.CLASS_PUNCTUATION_END)",
+			"sublime.active_window().active_view().classify(sublime.active_window().active_view().sel()[0].a) & (sublime.CLASS_WORD_END | sublime.CLASS_PUNCTUATION_START)",
+			"sublime.active_window().active_view().classify(sublime.active_window().active_view().sel()[0].a) & (sublime.CLASS_WORD_END | sublime.CLASS_PUNCTUATION_END)",
+			"sublime.active_window().active_view().classify(sublime.active_window().active_view().sel()[0].a) & (sublime.CLASS_WORD_START | sublime.CLASS_PUNCTUATION_START)",
+			"sublime.active_window().active_view().classify(sublime.active_window().active_view().sel()[0].a) & (sublime.CLASS_PUNCTUATION_START)",
+			"sublime.active_window().active_view().classify(sublime.active_window().active_view().sel()[0].a) & (sublime.CLASS_WORD_START | sublime.CLASS_PUNCTUATION_START)",
+			"sublime.active_window().active_view().classify(sublime.active_window().active_view().sel()[0].a) & (sublime.CLASS_WORD_END | sublime.CLASS_PUNCTUATION_END)",
+			"sublime.active_window().active_view().classify(sublime.active_window().active_view().sel()[0].a) & sublime.CLASS_WORD_END",
+			"sublime.active_window().active_view().classify(sublime.active_window().active_view().sel()[0].a) & sublime.CLASS_WORD_END == True",
+			"sublime.active_window().active_view().classify(sublime.active_window().active_view().sel()[0].a) & sublime.CLASS_WORD_END",
+			"sublime.active_window().active_view().classify(sublime.active_window().active_view().sel()[0].a) & sublime.CLASS_WORD_START",
+			"sublime.active_window().active_view().classify(point_in_view) & sublime.CLASS_WORD_START",
+			"sublime.active_window().active_view().find_by_class(sublime.active_window().active_view().sel()[0].a, False, sublime.CLASS_WORD_START)",
+			"sublime.active_window().active_view().sel()[0].a",
+			"sublime.active_window().active_view().find_by_class(sublime.active_window().active_view().sel()[0].a, False, sublime.CLASS_WORD_START)",
+			"sublime.active_window().active_view().sel()[0].a",
+			"sublime.active_window().active_view().find_by_class(sublime.active_window().active_view().sel()[0].a, False, sublime.CLASS_WORD_START)",
+			"sublime.active_window().active_view().sel()[0].a",
+			"sublime.active_window().active_view().sel()[0].a += 1",
+			"print(sublime.active_window().active_view().sel()[0].a)",
+			"print(sublime.active_window().active_view().sel()[0])",
+			" sublime.active_window().active_view().sel()[0] ",
+			"sublime.active_window().active_view().sel()[0] ",
+			"sublime.active_window().active_view().sel()[0]",
+			"sublime.message_dialog(\"hello world!\")",
+			"sublime.error_message(\"hello world!\")",
+			"sublime.log_commands(False)",
+			"sublime.active_window().run_command(\"set_setting\", {\"setting\": \"rulers\", \"value\": None})",
+			"sublime.active_window().run_command(\"set_setting\", {\"setting\": \"rulers\", \"value\": [79]})",
+			"sublime.log_commands(True)",
+			"sublime.active_window().open_file('/home/stav/Code/Source.cpp')",
+			"sublime.active_window().run_command('close_if_not_primary_view', {'view_to_check': sublime.active_window().views()[0]})",
+			"sublime.active_window().run_command('close_if_not_primary_view', {'view_to_check': sublime.active_window().viewsd()[0]})",
+			"sublime.active_window().run_command('close_if_not_primary_view', {'view_to_check': 1})",
+			"sublime.active_window().run_command('close_if_not_primary_view', {'view_to_check': sublime.active_window().active_view()})",
+			"sublime.active_window().run_command('close_if_not_primary_view', {'view_to_check': 1})",
+			"sublime.active_window().run_command('close_if_not_primary_view')",
+			"sublime.active_window().open_file(\"Source.cpp\")",
+			"sublime.active_window().open_file(\"Code/a\")",
+			"sublime.active_window().open_file(\"a\")",
+			"os.path.relpath(\"/home/stav/.config/sublime-text-3/Packages/RTags/rtags_modules/cursor_manipulations.py\", \"/nigga/stav/.config/sublime-text-3/Packages/RTags\")",
+			"os.path.relpath(\"/home/stav/.config/sublime-text-3/Packages/RTags/rtags_modules/cursor_manipulations.py\", \"/home/stav/.config/sublime-text-3/Packages/RTags\")"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/stav/Projects/sphinxBug-env/SphinxBug",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/Code",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/folder",
+		"/home/stav/.config/sublime-text-3/Packages/RTags",
+		"/home/stav/.config/sublime-text-3/Packages/RTags/rtags_commands"
+	],
+	"file_history":
+	[
+		"/home/stav/.config/sublime-text-3/Packages/Colorcoder/colorcoder.sublime-settings",
+		"/home/stav/.config/sublime-text-3/Packages/RTags/rtags.sublime-commands",
+		"/home/stav/.config/sublime-text-3/Packages/Color Scheme - Default/Monokai.tmTheme",
+		"/home/stav/.config/sublime-text-3/Packages/RTags/Find References Results.hidden-tmLanguage",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/SphinxDoc/Doxyfile",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/README.md",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/Code/Check.cpp",
+		"/home/stav/.config/sublime-text-3/Packages/RTags/rtags_commands/follow_location.py",
+		"/home/stav/.config/sublime-text-3/Packages/RTags/rtags_modules/cursor_manipulations.py",
+		"/usr/include/stdio.h",
+		"/home/stav/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/stav/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/stav/.config/sublime-text-3/Packages/RTags/rtags_modules/rc_call.py",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/Code/Check.h",
+		"/home/stav/.config/sublime-text-3/Packages/RTags/rtags_modules/main_logger.py",
+		"/home/stav/.config/sublime-text-3/Packages/RTags/rtags_commands/__init__.py",
+		"/usr/include/c++/5/bits/basic_string.tcc",
+		"/home/stav/.config/sublime-text-3/Packages/RTags/Find References Results2.tmLanguage",
+		"/home/stav/.config/sublime-text-3/Packages/User/scons.sublime-build",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/Code/SafeArray.hpp",
+		"/home/stav/.config/sublime-text-3/Packages/Default/mark.py",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/Code/Source.cpp",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/Code/SConscript",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/folder/SConscript",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/SConstruct",
+		"/home/stav/.config/sublime-text-3/Packages/C++/C++ Single File.sublime-build",
+		"/home/stav/.config/sublime-text-3/Packages/RTags/rtags.sublime-project",
+		"/home/stav/.config/sublime-text-3/Packages/RTags/rtags.py",
+		"/home/stav/.config/sublime-text-3/Packages/Anaconda/README.md",
+		"/home/stav/.config/sublime-text-3/Packages/Include Autocomplete/plugin.py",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/compile_commands.json",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/folder/file.h",
+		"/opt/sublime_text/sublime.py",
+		"/home/stav/.config/sublime-text-3/Packages/Default/Find Results.hidden-tmLanguage",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/folder/file.cpp",
+		"/home/stav/.config/sublime-text-3/Packages/Default/exec.py",
+		"/home/stav/Projects/rtags-env/RTags/src/rtags.el",
+		"/home/stav/gdb.txt",
+		"/usr/share/cgdb/cgdb.txt",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/file.cpp",
+		"/home/stav/.config/sublime-text-3/Packages/PackageResourceViewer/README.md",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/Code/folder/nigga/abra/cafabra/lol.h",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/Code/folder/nigga/header.hpp",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/Code/folder/file.cpp",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/Folder/file.cpp",
+		"/usr/include/c++/5/string",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug",
+		"/home/stav/.config/sublime-text-3/Packages/RTags/rtags_modules/__init__.py",
+		"/home/stav/.config/sublime-text-3/Packages/RTags/rtags_modules/rtags.py",
+		"/home/stav/.config/sublime-text-3/Packages/AdvancedNewFile/Default.sublime-commands",
+		"/home/stav/.config/sublime-text-3/Packages/OpenFile/open_file.py",
+		"/home/stav/Source.cpp",
+		"/home/stav/Code/Source.cpp",
+		"/opt/sublime_text/sublime_plugin.py",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/SphinxDoc/index.rst",
+		"/home/stav/.config/sublime-text-3/Packages/User/open_file.py",
+		"/home/stav/.config/sublime-text-3/Packages/RTags/rtags_modules/Source.cpp",
+		"/home/stav/.config/sublime-text-3/Packages/RTags/rtags_modules/Code/a",
+		"/home/stav/.config/sublime-text-3/Packages/RTags/rtags_modules/a",
+		"/home/stav/symlink.cpp",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/Code/.#Source.cpp",
+		"/home/stav/.bashrc",
+		"/usr/include/c++/5.4.1/stdexcept",
+		"/home/stav/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/Code/Exceptions.hpp",
+		"/home/stav/.config/sublime-text-3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/home/stav/Documents/Whitening/whitening.sh",
+		"/home/stav/.config/sublime-text-3/Packages/RTags/nigga",
+		"/home/stav/.config/sublime-text-3/Packages/MultiEditUtils/Default (Linux).sublime-keymap",
+		"/home/stav/Documents/Installs/RTags/src/rct/rct.cmake",
+		"/home/stav/rdm.log",
+		"/home/stav/Documents/Installs/RTags/src/CMakeLists.txt",
+		"/home/stav/Documents/Installs/RTags/build/CMakeFiles/CMakeOutput.log",
+		"/home/stav/Documents/Installs/RTags/build/CMakeFiles/CMakeError.log",
+		"/home/stav/Documents/Installs/src/rct/rct.cmake",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/Code/Check.cpp:21",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/Code/SphinxBug/Code/Check.cpp",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/SphinxDoc/_build/html/_static/jquery-1.11.1.js",
+		"/home/stav/.config/sublime-text-3/Packages/RTags/__init__.py",
+		"/home/stav/.config/sublime-text-3/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/home/stav/.config/sublime-text-3/Packages/Anaconda/anaconda.py",
+		"/home/stav/Documents/Tests/array_as_template_parameter2.cpp",
+		"/home/stav/Documents/Tests/array_as_template_parameter.cpp",
+		"/home/stav/.config/sublime-text-3/Packages/AutoFileName/autofilename.py",
+		"/home/stav/.config/sublime-text-3/Packages/AutoFileName/autofilename.sublime-settings",
+		"/home/stav/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/stav/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/stav/Documents/Tests/find_sub_array_with_highest_sum.cpp",
+		"/home/stav/.config/sublime-text-3/Packages/RTags/rtags/__init__.py",
+		"/home/stav/.config/sublime-text-3/Packages/RTags/rtags/main_logger.py",
+		"/home/stav/.config/sublime-text-3/Packages/EasyClangComplete/plugin/__init__.py",
+		"/usr/lib/python3.4/logging/__init__.py",
+		"/home/stav/.config/sublime-text-3/Packages/EasyClangComplete/Default.sublime-commands",
+		"/home/stav/.config/sublime-text-3/Packages/EasyClangComplete/EasyClangComplete.py",
+		"/home/stav/.config/sublime-text-3/Packages/User/RTags/rtags.py",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/SConstrcut",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/Code/todo.todo",
+		"/home/stav/Projects/sphinxBug-env/SphinxBug/Code/lol.html",
+		"/home/stav/.config/sublime-text-3/Packages/FuzzyFilePath/FuzzyFilePath.sublime-settings",
+		"/home/stav/.config/sublime-text-3/Packages/User/FuzzyFilePath.sublime-settings",
+		"/home/stav/.config/sublime-text-3/Packages/FuzzyFilePath/Default (Linux).sublime-keymap",
+		"/media/sf_Shared/whitening.sh",
+		"/home/stav/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/stav/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 113.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"inBounds",
+			"_get_symbol_length",
+			"reference",
+			"symbol_occurences_list",
+			"debug",
+			"same",
+			"sublime",
+			"occurences",
+			"symbol_occurences_tuple",
+			"symbol_occurences",
+			"Params",
+			"l,o",
+			"arg",
+			"ClassName",
+			"a",
+			"number",
+			"occurencies",
+			"symbol_regions",
+			"line_context",
+			"content",
+			"line_content",
+			"the",
+			"pass",
+			"\\r",
+			"symbol",
+			"syntax",
+			"region",
+			"_get_include_locations",
+			"call",
+			"sublun",
+			"tree",
+			"call",
+			"_get_include_completions",
+			"_get_include_locations",
+			"_get_include_completions",
+			"item",
+			"dirname",
+			"compdb_item",
+			"compdb_",
+			"parse_command",
+			"HEADER_EXT",
+			"_get_include_completions",
+			"References",
+			"references",
+			"References",
+			"panel",
+			"check",
+			"output_view",
+			"insert",
+			"show_panel",
+			"file_regex",
+			"result_file_regex",
+			"output_view",
+			"):\n",
+			"result_file_regex",
+			"_set_cursor_location_different_view",
+			"sublime",
+			"active_view",
+			"tatic npos = 4294967295, mString = \"",
+			"log",
+			"logger",
+			"path",
+			"rtags",
+			"Method2",
+			"pra",
+			"--current-project",
+			"rtags-handle-results-buffer",
+			"+(",
+			"fldr",
+			"directory",
+			"dir",
+			" >=",
+			">= ",
+			" >=",
+			">=",
+			" !=",
+			"ToWordStart",
+			"inBounds",
+			"SafeArray",
+			"T",
+			">::",
+			"inBounds",
+			"-b",
+			"path",
+			"--current",
+			"-z",
+			"tim",
+			"File",
+			"error_code",
+			"False",
+			"logger.error",
+			"view.file_name()",
+			"view_retarget",
+			"opened_file_path",
+			"primary_view",
+			"duplicate_view",
+			"debug",
+			"open_view",
+			"debug",
+			"print",
+			"view.file_name()",
+			"view",
+			"view_to_check",
+			"path_to_focus",
+			"view",
+			"opened_files_absolute_paths",
+			"opened_file_absolute_path",
+			"new_file_absolute_path",
+			"views_by_thier_absolute_file_paths",
+			"is_primary",
+			"set_timeout_async",
+			"set_timeout",
+			"tab",
+			"sleep",
+			"s",
+			"view.window()",
+			"opened_file_path",
+			"path",
+			"_to_project_path",
+			"_to_project_relative_path",
+			"FileOutsideProjectPathError",
+			"project_root_dir",
+			"folders",
+			"dir",
+			"project_root_directories",
+			"folder",
+			"projectFolders",
+			"folder"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\n        ",
+			"logger",
+			")\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/stav/Projects/sphinxBug-env/SphinxBug/Code/Source.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1022,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								837,
+								837
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"colorcode": true,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 301.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/stav/Projects/sphinxBug-env/SphinxBug/Code/Check.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 447,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								269,
+								269
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										284,
+										285
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										263,
+										264
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"colorcode": true,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 132.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/stav/Projects/sphinxBug-env/SphinxBug/Code/SafeArray.hpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3301,
+								3301
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										3300,
+										3301
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										3288,
+										3289
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"colorcode": true,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3797.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/stav/Projects/sphinxBug-env/SphinxBug/Code/Check.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1046,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								114,
+								114
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"colorcode": true,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "rtags.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								102,
+								102
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".>:",
+									"selector": "source.c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>:",
+									"selector": "source.c - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"colorcode": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "rtags_commands/follow_location.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2377,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								21
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".>:",
+									"selector": "source.c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>:",
+									"selector": "source.c - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"colorcode": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "rtags_commands/find_references.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8522,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5450,
+								5450
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".>:",
+									"selector": "source.c++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>:",
+									"selector": "source.c - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc++ - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".>: ",
+									"selector": "source.objc - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"colorcode": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2323.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Default.sublime-keymap",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 378,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								245,
+								245
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										245,
+										246
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										229,
+										230
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"colorcode": true,
+							"syntax": "Packages/PackageDev/Package/Sublime Text Keymap/Sublime Text Keymap.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10587,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6614,
+								6614
+							]
+						],
+						"settings":
+						{
+							"auto_name": "rc options...",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"colorcode": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 184.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.RTags: References":
+	{
+		"height": 212.0
+	},
+	"output.References":
+	{
+		"height": 286.0
+	},
+	"output.exec":
+	{
+		"height": 331.0
+	},
+	"output.find_results":
+	{
+		"height": 416.0
+	},
+	"output.sublundo":
+	{
+		"height": 150.0
+	},
+	"pinned_build_system": "Packages/User/scons.sublime-build",
+	"project": "rtags.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rcca",
+				"RTags/rtags_modules/rc_call.py"
+			],
+			[
+				"rccal",
+				"RTags/rtags_modules/rc_call.py"
+			],
+			[
+				"rtagspy",
+				"RTags/rtags.py"
+			],
+			[
+				"sconsc",
+				"SphinxBug/folder/SConscript"
+			],
+			[
+				"sc",
+				"SphinxBug/SConstruct"
+			],
+			[
+				"sou",
+				"SphinxBug/Code/Source.cpp"
+			],
+			[
+				"file",
+				"SphinxBug/folder/file.cpp"
+			],
+			[
+				"checkh",
+				"SphinxBug/Code/Check.h"
+			],
+			[
+				"logg",
+				"RTags/rtags_modules/main_logger.py"
+			],
+			[
+				"compile",
+				"SphinxBug/compile_commands.json"
+			],
+			[
+				"curmanip",
+				"RTags/rtags_modules/cursor_manipulations.py"
+			],
+			[
+				"source",
+				"SphinxBug/Code/Source.cpp"
+			],
+			[
+				"s",
+				"SphinxBug/Code/Source.cpp"
+			],
+			[
+				"so",
+				"SphinxBug/Code/Source.cpp"
+			],
+			[
+				"sour",
+				"SphinxBug/Code/Source.cpp"
+			],
+			[
+				"",
+				"SphinxBug/SphinxDoc/index.rst"
+			],
+			[
+				"sco",
+				"SphinxBug/SConstruct"
+			],
+			[
+				"curso",
+				"RTags/rtags_modules/cursor_manipulations.py"
+			],
+			[
+				"scon",
+				"SphinxBug/SConstruct"
+			],
+			[
+				"cm",
+				"RTags/rtags_modules/cursor_manipulations.py"
+			],
+			[
+				"cur",
+				"RTags/rtags_modules/cursor_manipulations.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/rtags-env/rtags.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 1328.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 249.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

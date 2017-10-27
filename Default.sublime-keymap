@@ -1,0 +1,12 @@
+[
+    { "keys": ["ctrl+e"], "command": "follow_location", "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "source.c, source.c++" }
+        ]
+    },
+    { "keys": ["ctrl+shift+e"], "command": "find_references", "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "source.c, source.c++" }
+        ]
+    },
+]

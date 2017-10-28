@@ -19,7 +19,9 @@ In short, RTags is a client/server application which parses C/C++ code and allow
 
 ### Currently Available Features
 - GoTo Definition/Decleration
+  ![Live Usage Example of GoTo Definition/Declaration](https://github.com/papadokolos/RTags/blob/master/GIF%20Examples/goto-definition.gif)
 - Find All References
+  ![Live Usage Example of Find All References](https://github.com/papadokolos/RTags/blob/master/GIF%20Examples/find-all-references.gif)
 
 All features are available in the _Command Panel_ (via <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>), and are assigned with default key bindings (found in _Default.sublime-keymap_).
 

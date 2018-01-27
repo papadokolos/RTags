@@ -9,4 +9,9 @@
             { "key": "selector", "operator": "equal", "operand": "source.c, source.c++" }
         ]
     },
+    { "keys": ["ctrl+alt+shift+e"], "command": "find_references_for_virtual_method_overrides", "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "source.c, source.c++" }
+        ]
+    },
 ]

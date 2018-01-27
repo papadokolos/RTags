@@ -1,4 +1,5 @@
 [
     { "caption": "RTags: Goto Definition/Declaration", "command": "follow_location" },
     { "caption": "RTags: Find All References", "command": "find_references" },
+    { "caption": "RTags: Find References for Virtual Method Overrides", "command": "find_references_for_virtual_method_overrides" },
 ]

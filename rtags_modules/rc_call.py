@@ -17,16 +17,16 @@ class RCCall(threading.Thread):
     """ Class Constants
     """
     # RTags protocol version number supported by this plugin
-    _protocol_version = 124
+    _PROTOCOL_VERSION = 124
 
     # Default parameters to be used in any rc call
-    _rc_default_params = (
+    _RC_DEFAULT_PARAMS = (
         "--no-color",
         "--absolute-path",
-        "--verify-version={}".format(_protocol_version))
+        "--verify-version={}".format(_PROTOCOL_VERSION))
 
     # Amount of second given to rc call to complete its communication with rdm
-    _timeout = 10
+    _TIMEOUT = 10
 
     def __init__(self):
         """ Create an RCCall instance, and initialize its members
@@ -51,7 +51,7 @@ class RCCall(threading.Thread):
         # Try to execute rc command, and handle the result
         try:
             binary_output = subprocess.check_output(
-                command.split(), timeout=self._timeout, shell=False)
+                command.split(), timeout=self._TIMEOUT, shell=False)
         except subprocess.CalledProcessError as e:
             self._log_rc_error(command, e)
         else:
@@ -75,7 +75,7 @@ class RCCall(threading.Thread):
         """ Combine default and user parameters to create a valid "rc" command
         """
         return "rc {}".format(
-            ' '.join(self._rc_default_params + self._rc_user_params))
+            ' '.join(self._RC_DEFAULT_PARAMS + self._rc_user_params))
 
     @staticmethod
     def _log_rc_success(output):

@@ -6,6 +6,11 @@ from RTags.rtags_modules.cursor_manipulations import CursorLocationHelper
 
 
 class FollowLocationCommand(sublime_plugin.TextCommand):
+    def __init__(self, *args):
+        super().__init__(*args)
+        # Flags that will be given to rc call, as a format
+        self._rc_params_format = "--no-context --follow-location {location}"
+
     def run(self, edit):
         logger.info("The functional command '{}' has been triggered.".format(
             self.__class__.__name__))
@@ -19,7 +24,7 @@ class FollowLocationCommand(sublime_plugin.TextCommand):
             return
 
         # Execute rc command
-        rc_params = "--no-context --follow-location {}".format(location)
+        rc_params = self._rc_params_format.format(location=location)
         rc_thread = RCCall()
         rc_thread.execute_rc(rc_params)
         rc_thread.join()

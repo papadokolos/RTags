@@ -9,6 +9,13 @@ from RTags.rtags_modules.cursor_manipulations import CursorLocationHelper
 
 
 class FindReferencesCommand(sublime_plugin.TextCommand):
+    def __init__(self, *args):
+        super().__init__(*args)
+        # Flags that will be given to rc call, as a format
+        self._rc_params_format = "--references {location}"
+        # Whether the symbol should be higlighted in the results panel
+        self._highlight_results = True
+
     def run(self, edit):
         logger.info("The functional command '{}' has been triggered.".format(
             self.__class__.__name__))
@@ -22,7 +29,7 @@ class FindReferencesCommand(sublime_plugin.TextCommand):
             return
 
         # Execute rc command
-        rc_params = "--references {}".format(location)
+        rc_params = self._rc_params_format.format(location=location)
         rc_thread = RCCall()
         rc_thread.execute_rc(rc_params)
         rc_thread.join()
@@ -74,7 +81,7 @@ class FindReferencesCommand(sublime_plugin.TextCommand):
             output_as_dict = json.loads(output_without_whitesapces)
 
             if output_as_dict["endLine"] != output_as_dict["startLine"]:
-                raise Exception(
+                raise ValueError(
                     "A symbol is not supposed to spread over multiple lines.")
 
             return output_as_dict["startColumn"], output_as_dict["endColumn"]
@@ -127,14 +134,15 @@ class FindReferencesCommand(sublime_plugin.TextCommand):
             # The offset considers: " {row}:<tabstop>"
             offset = 1 + len(row) + 1
 
-            # Used to calculate the end column of the referenced symbol
-            symbol_location = ':'.join((target_filename, row, col))
-            col_start, col_end = _get_symbol_column_range(symbol_location)
-            col_start += offset
-            col_end += offset
+            if self._highlight_results:
+                # Used to calculate the end column of the referenced symbol
+                symbol_location = ':'.join((target_filename, row, col))
+                col_start, col_end = _get_symbol_column_range(symbol_location)
+                col_start += offset
+                col_end += offset
 
-            # Add the referenced symbol occurence to the list
-            symbol_occurences.append((line_number, col_start, col_end))
+                # Add the referenced symbol occurence to the list
+                symbol_occurences.append((line_number, col_start, col_end))
 
             number_of_results += 1
             line_number += 1
@@ -155,7 +163,7 @@ class FindReferencesCommand(sublime_plugin.TextCommand):
         file_regex = '^([^ \t].*):$'
         line_regex = '^ +([0-9]+):'
         working_dir = ''
-        results_panel_name = "RTags: References"
+        results_panel_name = "RTags - References"
 
         results_view = self.view.window().create_output_panel(
             results_panel_name)
@@ -169,11 +177,13 @@ class FindReferencesCommand(sublime_plugin.TextCommand):
         results_view.settings().set("rulers", [])
         results_view.settings().set("translate_tabs_to_spaces", False)
         results_view.settings().set("highlight_line", True)
+        results_view.settings().set("fold_buttons", True)
+        results_view.settings().set("fade_fold_buttons", False)
         results_view.assign_syntax(syntax)
 
         results_view.run_command("publish_results_to_panel", {
             "results_panel_name": results_panel_name,
-            "find_results": find_results,
+            "results": find_results,
             "symbol_occurences": symbol_occurences})
 
 
@@ -182,32 +192,38 @@ class PublishResultsToPanelCommand(sublime_plugin.TextCommand):
     all symbol occurences.
     """
 
-    def run(self, edit, results_panel_name, find_results, symbol_occurences):
+    def run(self, edit, results_panel_name, results, symbol_occurences):
         logger.debug("The helper command '{}' has been triggered.".format(
             self.__class__.__name__))
 
         # Fill the view with the results
-        self.view.insert(edit, 0, find_results)
+        self.view.insert(edit, 0, results)
 
-        # Assure the results navigation starts from the beggining
+        # Assure results navigation (if configured) starts from the beggining
         self.view.sel().clear()
 
-        # Convert symbol occurences to regions
-        regions_to_highlight = [
-            sublime.Region(
-                self.view.text_point(row, col_start),
-                self.view.text_point(row, col_end))
-            for row, col_start, col_end in symbol_occurences]
+        # In case there are occurences which we would like to highlight
+        if symbol_occurences:
+            # Convert symbol occurences to regions
+            regions_to_highlight = [
+                sublime.Region(
+                    self.view.text_point(row, col_start),
+                    self.view.text_point(row, col_end))
+                for row, col_start, col_end in symbol_occurences]
 
-        # Highlight all symbol occurences
-        flags = (
-            sublime.DRAW_STIPPLED_UNDERLINE |
-            sublime.DRAW_NO_FILL |
-            sublime.DRAW_NO_OUTLINE)
+            # Highlight all symbol occurences
+            flags = (
+                sublime.DRAW_STIPPLED_UNDERLINE |
+                sublime.DRAW_NO_FILL |
+                sublime.DRAW_NO_OUTLINE)
 
-        self.view.add_regions(
-            "symbol", regions_to_highlight, scope="storage.type", flags=flags)
+            self.view.add_regions(
+                "symbol",
+                regions_to_highlight,
+                scope="storage.type",
+                flags=flags)
 
+        # Present the results panel to the user
         sublime.active_window().run_command(
             "show_panel", {"panel": "output." + results_panel_name})
         sublime.active_window().focus_view(self.view)

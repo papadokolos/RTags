@@ -23,6 +23,7 @@ In short, RTags is a client/server application which parses C/C++ code and allow
 - Find All References
   ![Live Usage Example of Find All References](https://github.com/papadokolos/RTags/blob/master/GIF%20Examples/find-all-references.gif)
 - Find Overrides of Virtual Method
+- Load Compilation Database
 
 All features are available in the _Command Panel_ (via <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>), and are assigned with default key bindings (found in _Default.sublime-keymap_).
 

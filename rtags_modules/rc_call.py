@@ -62,6 +62,8 @@ class RCCall(threading.Thread):
                 command.split(), timeout=self._TIMEOUT, shell=False)
         except subprocess.CalledProcessError as e:
             self._log_rc_error(command, e)
+        except subprocess.TimeoutExpired as e:
+            self._log_rdm_timeout_error(command, e)
         else:
             str_output = binary_output.decode('UTF-8').strip()
             self._log_rc_success(str_output)
@@ -125,6 +127,15 @@ class RCCall(threading.Thread):
 
         # Errors that the user must be notified about
         rc_exit_codes_very_relevant_to_user = {
+            "not_indexed": {
+                "exit_code": 35,
+                "user_friendly_message":
+                "The current file is not indexed within rdm server.\n\n"
+                "Possible reasons are:\n"
+                "- Missing compile_commands.json file\n"
+                "- Outdated compile_commands.json file\n"
+                "- Rdm sever is not watching this compile_commands.json\n"
+            },
             "connection_failure": {
                 "exit_code": 36,
                 "user_friendly_message":
@@ -153,10 +164,26 @@ class RCCall(threading.Thread):
                     rc_exit_codes_very_relevant_to_user.values()):
                 if e.returncode == very_relevant_error["exit_code"]:
                     sublime.error_message(
-                        "[RTags error]\n" +
+                        "[RTags error]\n\n" +
                         very_relevant_error["user_friendly_message"])
                     break
             logger.error(error_msg)
         else:
             error_msg = "RC error supressed from user:\n" + error_msg
             logger.debug(error_msg)
+
+    @staticmethod
+    def _log_rdm_timeout_error(cmd, e):
+        """ Log about rdm taking too long to fully respond to a rc request.
+
+        Params:
+            cmd - rc command that caused the error
+            e   - TimeoutExpired exception
+        """
+        error_msg_format = (
+            "Executing rc took too long, timeout expired ({} seconds).\n"
+            " Command: \"{}\"\n"
+            " Output: \"{}\"")
+        error_msg = error_msg_format.format(
+            e.timeout, cmd, e.output.decode('UTF-8').strip())
+        logger.error(error_msg)

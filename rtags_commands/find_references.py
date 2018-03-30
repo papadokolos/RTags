@@ -81,8 +81,10 @@ class FindReferencesCommand(sublime_plugin.TextCommand):
             output_as_dict = json.loads(output_without_whitesapces)
 
             if output_as_dict["endLine"] != output_as_dict["startLine"]:
-                raise ValueError(
-                    "A symbol is not supposed to spread over multiple lines.")
+                logger.debug(
+                    "Symbol at \"{}\" is spread over multiple lines, "
+                    "skipping highlight.".format(symbol_location))
+                return (0, 0)
 
             return output_as_dict["startColumn"], output_as_dict["endColumn"]
 

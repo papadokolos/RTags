@@ -7,6 +7,7 @@ from RTags.rtags_modules import main_logger
 from RTags.rtags_commands.follow_location import FollowLocationCommand
 from RTags.rtags_commands.find_references import FindReferencesCommand, PublishResultsToPanelCommand
 from RTags.rtags_commands.find_references_virtual_methods import FindReferencesForVirtualMethodOverridesCommand
+from RTags.rtags_commands.load_compile_commands import LoadCompileCommandsCommand
 
 
 def plugin_loaded():

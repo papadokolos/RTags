@@ -14,31 +14,39 @@ class RCCall(threading.Thread):
     """ Represents a call for "rc" command.
     """
 
-    """ Class Constants
-    """
+    """ Class Constants """
     # RTags protocol version number supported by this plugin
     _PROTOCOL_VERSION = 124
-
-    # Default parameters to be used in any rc call
-    _RC_DEFAULT_PARAMS = (
-        "--no-color",
-        "--absolute-path",
-        "--verify-version={}".format(_PROTOCOL_VERSION))
 
     # Amount of second given to rc call to complete its communication with rdm
     _TIMEOUT = 10
 
-    def __init__(self):
+    def __init__(self, view_file_path=None):
         """ Create an RCCall instance, and initialize its members
+
+            Params:
+                view_file_path - Full file path of the currently active view
         """
         super(RCCall, self).__init__()
 
-        # Public members
+        """ Public members """
+        self.view_file_path = view_file_path
         self.rc_returned_successfully = False
         self.received_output = ""
 
-        # Private members
-        self._rc_user_params = ()
+        """ Private members """
+        # Default parameters to be used in any rc call
+        self._rc_default_params = [
+            "--no-color",
+            "--absolute-path",
+            "--verify-version={}".format(self._PROTOCOL_VERSION)]
+
+        if view_file_path:
+            self._rc_default_params.append("--current-file={}".format(
+                self.view_file_path))
+
+        # User defined parameters to be used in any rc call
+        self._rc_user_params = []
 
     def run(self):
         # Clear result of previous rc call
@@ -69,13 +77,14 @@ class RCCall(threading.Thread):
     def _set_params(self, *rc_user_params):
         """ Assign parameters for next "rc" execution.
         """
-        self._rc_user_params = rc_user_params
+        self._rc_user_params = list(rc_user_params)
 
     def _build_command(self):
         """ Combine default and user parameters to create a valid "rc" command
         """
         return "rc {}".format(
-            ' '.join(self._RC_DEFAULT_PARAMS + self._rc_user_params))
+            ' '.join(
+                self._rc_default_params + self._rc_user_params))
 
     @staticmethod
     def _log_rc_success(output):

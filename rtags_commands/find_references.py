@@ -30,7 +30,7 @@ class FindReferencesCommand(sublime_plugin.TextCommand):
 
         # Execute rc command
         rc_params = self._rc_params_format.format(location=location)
-        rc_thread = RCCall()
+        rc_thread = RCCall(self.view.file_name())
         rc_thread.execute_rc(rc_params)
         rc_thread.join()
 
@@ -68,7 +68,7 @@ class FindReferencesCommand(sublime_plugin.TextCommand):
             """Figure out the start and end columns of the referenced symbol.
             """
             rc_params = "--json --symbol-info {}".format(symbol_location)
-            rc_thread = RCCall()
+            rc_thread = RCCall(self.view.file_name())
             rc_thread.execute_rc(rc_params)
             rc_thread.join()
 

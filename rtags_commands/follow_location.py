@@ -25,7 +25,7 @@ class FollowLocationCommand(sublime_plugin.TextCommand):
 
         # Execute rc command
         rc_params = self._rc_params_format.format(location=location)
-        rc_thread = RCCall()
+        rc_thread = RCCall(self.view.file_name())
         rc_thread.execute_rc(rc_params)
         rc_thread.join()
 
